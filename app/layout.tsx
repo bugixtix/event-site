@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     description: "The Future of AI & Design — Lisbon, May 14–16, 2026",
     type: "website",
   },
+  icons:{
+    icon:"/favicon.png"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
