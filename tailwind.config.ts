@@ -37,6 +37,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [heroui({ themes: { dark: { colors: { primary: { DEFAULT: "#7c3aed", foreground: "#fff" } } } } })],
+  plugins: [heroui({ themes: { dark: { colors: { primary: { DEFAULT: "#7c3aed", foreground: "#fff" } } } } }) as any],
 };
 export default config;
